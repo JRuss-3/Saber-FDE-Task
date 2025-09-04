@@ -75,6 +75,8 @@ def enrich_customer_orders():
         email = ("email", "first"),
         total_spend = ("order_total", "sum")
     ).reset_index()
+    # round the sums to 2dp to clean up totals col
+    agg_df['total_spend'] = agg_df['total_spend'].round(2)
 
     # Create empty columns to store results
     agg_df['social_handle'] = None
