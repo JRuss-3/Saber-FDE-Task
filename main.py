@@ -1,3 +1,4 @@
+import re
 import sqlite3
 import pandas as pd
 import logging
@@ -37,16 +38,19 @@ def get_customer_orders():
     conn.close()
     return df
 
-def filter_by_city(city, df):
+def filter_by_city(city: str, df):
     # Standardise city formats in the dataset
     df['city'] = df['city'].str.strip().str.lower()
     # Filter based on selected city making sure city input is also converted to lowercase
     df = df[df['city'] == city.strip().lower()]
     return df
 
-def filter_by_start_date(start_date, df):
+def filter_by_start_date(start_date: str, df):
     # standardise date format and filter where start_date is YYYY-MM-DD
-    start_date = pd.to_datetime('2024-09-01')
+    date_regex = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+    if not date_regex.match(start_date):
+        logging.warning(f"Start date does not match the required format of YYYY-MM-DD")
+    start_date = pd.to_datetime(start_date)
     df['order_date'] = df['order_date'].apply(parse_date)
     df = df[(df['order_date'] >= start_date)]
     return df
@@ -58,6 +62,9 @@ def enrich_customer_orders():
     logging.info(f"Starting enrichment of order data for customers living in {city} since date:{start_date}")
     # Fetch all customer orders from the db as DB is fairly small and the data can be cleaned and filtered after
     df = get_customer_orders()
+    if df.empty:
+        logging.warning(f"No data returned form db for date range and city provided")
+    logging.info(f"Data successfully returned from db")
     df = filter_by_city(city, df)
     # filter by date where date is YYYY-MM-DD
     df = filter_by_start_date(start_date, df) 
