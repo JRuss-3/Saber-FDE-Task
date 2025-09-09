@@ -5,18 +5,14 @@ import random
 import time
 import requests
 
-
+#Fetch API data for a given email with retries and error handling
 def fetch_social_handle(email, max_retries=5):
-    """Fetch API data for a given email with retries and error handling."""
     if not email:
         return {"data": None, "status": "No email provided"}
 
     url = "http://localhost:5000/enrichment"
     headers = {
         "X-API-KEY": "SECRET_KEY_123"
-    }
-    params = {
-        "email": email
     }
     params = {"email": email}
     retries = 0
@@ -28,14 +24,15 @@ def fetch_social_handle(email, max_retries=5):
             response.raise_for_status()
             # Check is no data returned from endpoint
             if response.status_code == 204 or not response.json():
-                return {"data": None, "status": f"No profile found for {email}"}
+                return {"data": None, "status": f"No data returned for {email}"}
 
             return {"data": response.json(), "status": "Successfully found social handle for user"}
 
         except requests.HTTPError as http_err:
             status = response.status_code
             if status == 429:  # Rate limit
-                wait_time = 2 ** retries + random.random()  # exponential backoff + jitter
+                # should probably add in a check for the retry after param wait_time = response.headers.get("Retry-After") and use that to set the time delay is exists
+                wait_time = 2 ** retries + random.random()  # exponential backoff + jitter designed to stop all retries happening at the same time
                 logging.warning(f"Rate limited for {email}. Waiting {wait_time:.1f} seconds before retrying...")
                 time.sleep(wait_time)
                 retries += 1
@@ -97,7 +94,8 @@ def send_enriched_data(data, max_retries=5):
         except requests.RequestException as e:
             # Handle network errors
             wait_time = 2 ** retries + random.random()
-            logging.warning("Network error while sending CustomerID: {data['customer_id']} with Error: {e}. Retrying in {wait_time:.1f} seconds...")
+            # not converted the logging response into an f string 
+            logging.warning(f"Network error while sending CustomerID: {data['customer_id']} with Error: {e}. Retrying in {wait_time:.1f} seconds...")
             time.sleep(wait_time)
             retries += 1
     logging.error(f"Max retries ({max_retries}) exceeded while sending CustomerID: {data['customer_id']}")

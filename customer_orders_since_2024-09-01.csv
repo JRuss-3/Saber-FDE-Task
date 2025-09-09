@@ -1,15 +1,15 @@
 customer_id,name,email,total_spend,social_handle,success,reason
 108,William Allen,notfound21@example.com,2665.54,,False,Profile not found (404)
 112,Karen Sanchez,karen_sanchez@example.com,1381.61,@karen_sanchez_social,True,Successfully found social handle for user
-121,Lisa Clark,lisa_clark@company.com,1523.84,@lisa_clark_social,True,Successfully found social handle for user
+121,Lisa Clark,lisa_clark@company.com,1523.8400000000001,@lisa_clark_social,True,Successfully found social handle for user
 125,Ruth Hernandez,,1783.04,,False,No email provided
 138,Michelle Martin,michellemartin@company.com,123.52,@michellemartin_social,True,Successfully found social handle for user
 146,Christopher Sanchez,christophersanchez@company.com,2840.71,@christophersanchez_social,True,Successfully found social handle for user
-159,Joseph Brown,joseph.brown@hotmail.com,1750.68,@joseph_brown_social,True,Successfully found social handle for user
-175,Patricia Anderson,patricia_anderson@hotmail.com,2197.93,@patricia_anderson_social,True,Successfully found social handle for user
+159,Joseph Brown,joseph.brown@hotmail.com,1750.6799999999998,@joseph_brown_social,True,Successfully found social handle for user
+175,Patricia Anderson,patricia_anderson@hotmail.com,2197.9300000000003,@patricia_anderson_social,True,Successfully found social handle for user
 182,Jennifer Flores,notfound27@example.com,2645.56,,False,Profile not found (404)
 187,Mark Scott,mark_scott@yahoo.com,5620.63,@mark_scott_social,True,Successfully found social handle for user
-201,Betty King,betty.king@company.com,2013.12,@betty_king_social,True,Successfully found social handle for user
+201,Betty King,betty.king@company.com,2013.1200000000001,@betty_king_social,True,Successfully found social handle for user
 207,Carol Robinson,carol_robinson@gmail.com,3258.36,@carol_robinson_social,True,Successfully found social handle for user
 215,Elizabeth Brown,elizabeth_brown@company.com,2895.41,@elizabeth_brown_social,True,Successfully found social handle for user
 217,Joshua Robinson,joshua_robinson@hotmail.com,1183.1,@joshua_robinson_social,True,Successfully found social handle for user
@@ -17,8 +17,8 @@ customer_id,name,email,total_spend,social_handle,success,reason
 231,Betty Sanchez,notfound11@example.com,1713.7,,False,Profile not found (404)
 232,Anthony Hill,anthony_hill@gmail.com,1569.09,@anthony_hill_social,True,Successfully found social handle for user
 251,Paul Garcia,,1240.83,,False,No email provided
-274,Karen Davis,notfound15@example.com,3494.72,,False,Profile not found (404)
-281,Ruth White,ruthwhite@yahoo.com,1616.8,@ruthwhite_social,True,Successfully found social handle for user
+274,Karen Davis,notfound15@example.com,3494.7200000000003,,False,Profile not found (404)
+281,Ruth White,ruthwhite@yahoo.com,1616.8000000000002,@ruthwhite_social,True,Successfully found social handle for user
 299,Donald Lee,,773.69,,False,No email provided
 300,Karen Jackson,notfound24@example.com,714.58,,False,Profile not found (404)
 306,Michelle Hill,michelle.hill@gmail.com,1701.77,@michelle_hill_social,True,Successfully found social handle for user
@@ -56,14 +56,14 @@ customer_id,name,email,total_spend,social_handle,success,reason
 514,Richard Jackson,richard.jackson@company.com,2802.37,@richard_jackson_social,True,Successfully found social handle for user
 556,Sharon Scott,notfound18@example.com,118.94,,False,Profile not found (404)
 557,Karen Torres,karen.torres@gmail.com,2565.87,@karen_torres_social,True,Successfully found social handle for user
-564,Susan Moore,notfound12@example.com,1012.89,,False,Profile not found (404)
+564,Susan Moore,notfound12@example.com,1012.8900000000001,,False,Profile not found (404)
 590,Donald Jackson,donald.jackson@hotmail.com,2355.42,@donald_jackson_social,True,Successfully found social handle for user
 593,Thomas Torres,,5030.34,,False,No email provided
-600,Lisa Thompson,lisa.thompson@example.com,1734.63,@lisa_thompson_social,True,Successfully found social handle for user
+600,Lisa Thompson,lisa.thompson@example.com,1734.6299999999999,@lisa_thompson_social,True,Successfully found social handle for user
 611,Betty Scott,notfound5@example.com,888.78,,False,Profile not found (404)
-618,Jennifer Hill,jennifer.hill@company.com,6862.78,@jennifer_hill_social,True,Successfully found social handle for user
+618,Jennifer Hill,jennifer.hill@company.com,6862.780000000001,@jennifer_hill_social,True,Successfully found social handle for user
 637,Ruth Lewis,ruth_lewis@example.com,1453.55,@ruth_lewis_social,True,Successfully found social handle for user
-639,Sandra White,notfound13@example.com,2299.28,,False,Profile not found (404)
+639,Sandra White,notfound13@example.com,2299.2799999999997,,False,Profile not found (404)
 645,Susan Williams,susan.williams@gmail.com,1750.51,@susan_williams_social,True,Successfully found social handle for user
 646,Robert Walker,robertwalker@example.com,2369.11,@robertwalker_social,True,Successfully found social handle for user
 652,Jessica Robinson,jessica_robinson@gmail.com,2252.76,@jessica_robinson_social,True,Successfully found social handle for user
@@ -78,31 +78,31 @@ customer_id,name,email,total_spend,social_handle,success,reason
 756,Helen Rodriguez,helen.rodriguez@example.com,890.06,@helen_rodriguez_social,True,Successfully found social handle for user
 760,John Perez,john_perez@outlook.com,1234.91,@john_perez_social,True,Successfully found social handle for user
 768,Daniel Scott,danielscott@outlook.com,1379.6,@danielscott_social,True,Successfully found social handle for user
-782,Jennifer Brown,jennifer.brown@hotmail.com,2104.59,@jennifer_brown_social,True,Successfully found social handle for user
+782,Jennifer Brown,jennifer.brown@hotmail.com,2104.5899999999997,@jennifer_brown_social,True,Successfully found social handle for user
 784,Joseph Ramirez,joseph_ramirez@outlook.com,3841.23,@joseph_ramirez_social,True,Successfully found social handle for user
 789,Helen Martinez,helenmartinez@outlook.com,2418.33,@helenmartinez_social,True,Successfully found social handle for user
 795,Linda Clark,notfound30@example.com,2605.88,,False,Profile not found (404)
 809,Betty Hill,bettyhill@hotmail.com,2862.29,@bettyhill_social,True,Successfully found social handle for user
-817,Joshua Jackson,joshua.jackson@outlook.com,2278.18,@joshua_jackson_social,True,Successfully found social handle for user
-818,Daniel Davis,danieldavis@outlook.com,4172.36,@danieldavis_social,True,Successfully found social handle for user
+817,Joshua Jackson,joshua.jackson@outlook.com,2278.1800000000003,@joshua_jackson_social,True,Successfully found social handle for user
+818,Daniel Davis,danieldavis@outlook.com,4172.360000000001,@danieldavis_social,True,Successfully found social handle for user
 830,Charles Lewis,charles_lewis@hotmail.com,1562.96,@charles_lewis_social,True,Successfully found social handle for user
 861,Barbara Martin,barbara_martin@gmail.com,2627.89,@barbara_martin_social,True,Successfully found social handle for user
 863,Elizabeth Williams,elizabeth_williams@outlook.com,2617.34,@elizabeth_williams_social,True,Successfully found social handle for user
 865,Elizabeth Harris,notfound28@example.com,1255.12,,False,Profile not found (404)
 867,Sharon Rodriguez,sharon.rodriguez@company.com,47.97,@sharon_rodriguez_social,True,Successfully found social handle for user
-869,Michael Moore,michael_moore@company.com,5129.15,@michael_moore_social,True,Successfully found social handle for user
+869,Michael Moore,michael_moore@company.com,5129.150000000001,@michael_moore_social,True,Successfully found social handle for user
 872,Linda Hernandez,linda_hernandez@company.com,4054.54,@linda_hernandez_social,True,Successfully found social handle for user
 874,Steven Rodriguez,steven.rodriguez@hotmail.com,1542.07,@steven_rodriguez_social,True,Successfully found social handle for user
-876,Ruth Sanchez,ruth_sanchez@gmail.com,563.94,@ruth_sanchez_social,True,Successfully found social handle for user
+876,Ruth Sanchez,ruth_sanchez@gmail.com,563.9399999999999,@ruth_sanchez_social,True,Successfully found social handle for user
 885,Sandra Perez,sandra.perez@example.com,1209.5,@sandra_perez_social,True,Successfully found social handle for user
 902,Sharon Anderson,sharon_anderson@company.com,1245.43,@sharon_anderson_social,True,Successfully found social handle for user
-903,Richard Sanchez,richard.sanchez@gmail.com,3555.82,@richard_sanchez_social,True,Successfully found social handle for user
+903,Richard Sanchez,richard.sanchez@gmail.com,3555.8199999999997,@richard_sanchez_social,True,Successfully found social handle for user
 921,Donald Martinez,,3737.17,,False,No email provided
-930,Donna Martinez,donna.martinez@yahoo.com,3171.57,@donna_martinez_social,True,Successfully found social handle for user
+930,Donna Martinez,donna.martinez@yahoo.com,3171.5699999999997,@donna_martinez_social,True,Successfully found social handle for user
 933,Betty Williams,betty_williams@company.com,1703.32,@betty_williams_social,True,Successfully found social handle for user
 964,Karen Lopez,karen_lopez@hotmail.com,313.48,@karen_lopez_social,True,Successfully found social handle for user
 967,David Wilson,david_wilson@outlook.com,763.24,@david_wilson_social,True,Successfully found social handle for user
-984,Nancy Miller,nancy.miller@yahoo.com,2604.82,@nancy_miller_social,True,Successfully found social handle for user
+984,Nancy Miller,nancy.miller@yahoo.com,2604.8199999999997,@nancy_miller_social,True,Successfully found social handle for user
 995,John Thompson,john_thompson@yahoo.com,3028.54,@john_thompson_social,True,Successfully found social handle for user
 996,Matthew Brown,notfound7@example.com,761.73,,False,Profile not found (404)
 999,Linda Lee,linda_lee@company.com,2465.59,@linda_lee_social,True,Successfully found social handle for user
@@ -113,42 +113,42 @@ A243,Donna Thompson,donna_thompson@gmail.com,1428.94,@donna_thompson_social,True
 A254,Jessica Wilson,jessicawilson@example.com,1728.92,@jessicawilson_social,True,Successfully found social handle for user
 A262,Matthew White,matthewwhite@hotmail.com,631.99,@matthewwhite_social,True,Successfully found social handle for user
 A308,Lisa Ramirez,lisa_ramirez@outlook.com,375.54,@lisa_ramirez_social,True,Successfully found social handle for user
-A502,Mary Williams,mary_williams@company.com,1624.39,@mary_williams_social,True,Successfully found social handle for user
+A502,Mary Williams,mary_williams@company.com,1624.3899999999999,@mary_williams_social,True,Successfully found social handle for user
 A528,Charles Walker,notfound16@example.com,519.84,,False,Profile not found (404)
 A749,Anthony Smith,notfound26@example.com,1078.81,,False,Profile not found (404)
-A884,Barbara Walker,barbarawalker@company.com,2423.97,@barbarawalker_social,True,Successfully found social handle for user
+A884,Barbara Walker,barbarawalker@company.com,2423.9700000000003,@barbarawalker_social,True,Successfully found social handle for user
 A909,Sandra Williams,sandra.williams@gmail.com,2095.77,@sandra_williams_social,True,Successfully found social handle for user
 B172,Sandra Ramirez,sandra_ramirez@outlook.com,2212.16,@sandra_ramirez_social,True,Successfully found social handle for user
 B173,John Garcia,johngarcia@hotmail.com,3048.3,@johngarcia_social,True,Successfully found social handle for user
 B230,Anthony Clark,anthonyclark@yahoo.com,1847.71,@anthonyclark_social,True,Successfully found social handle for user
 B299,Donna Lewis,donna.lewis@hotmail.com,2222.48,@donna_lewis_social,True,Successfully found social handle for user
-B353,Barbara Smith,barbarasmith@yahoo.com,2295.61,@barbarasmith_social,True,Successfully found social handle for user
+B353,Barbara Smith,barbarasmith@yahoo.com,2295.6099999999997,@barbarasmith_social,True,Successfully found social handle for user
 B372,Anthony King,notfound25@example.com,2147.35,,False,Profile not found (404)
 B400,Nancy Wright,nancy_wright@company.com,983.92,@nancy_wright_social,True,Successfully found social handle for user
 B429,Karen Moore,karen.moore@outlook.com,3927.96,@karen_moore_social,True,Successfully found social handle for user
 B460,Donna Sanchez,notfound20@example.com,3492.2,,False,Profile not found (404)
 B512,Joseph Wilson,notfound29@example.com,2364.59,,False,Profile not found (404)
-B528,Mark Thomas,notfound9@example.com,437.66,,False,Profile not found (404)
+B528,Mark Thomas,notfound9@example.com,437.65999999999997,,False,Profile not found (404)
 B538,Joseph Anderson,joseph.anderson@hotmail.com,4092.27,@joseph_anderson_social,True,Successfully found social handle for user
-B565,Nancy Allen,nancyallen@outlook.com,2057.24,@nancyallen_social,True,Successfully found social handle for user
+B565,Nancy Allen,nancyallen@outlook.com,2057.2400000000002,@nancyallen_social,True,Successfully found social handle for user
 B761,Steven Lee,stevenlee@outlook.com,1766.05,@stevenlee_social,True,Successfully found social handle for user
-B866,Jennifer Wilson,,4907.97,,False,No email provided
+B866,Jennifer Wilson,,4907.969999999999,,False,No email provided
 B923,Michelle Lee,michelle.lee@gmail.com,1981.73,@michelle_lee_social,True,Successfully found social handle for user
 C138,Christopher Thompson,christopherthompson@hotmail.com,631.69,@christopherthompson_social,True,Successfully found social handle for user
-C149,David Anderson,notfound19@example.com,2919.11,,False,Profile not found (404)
+C149,David Anderson,notfound19@example.com,2919.1099999999997,,False,Profile not found (404)
 C175,Karen Lewis,karenlewis@example.com,583.75,@karenlewis_social,True,Successfully found social handle for user
 C242,Anthony Allen,anthony.allen@yahoo.com,335.56,@anthony_allen_social,True,Successfully found social handle for user
 C264,Christopher Lopez,christopher_lopez@outlook.com,650.01,@christopher_lopez_social,True,Successfully found social handle for user
 C266,Christopher Davis,christopher.davis@example.com,81.66,@christopher_davis_social,True,Successfully found social handle for user
 C375,Daniel Hill,daniel.hill@yahoo.com,1950.23,@daniel_hill_social,True,Successfully found social handle for user
-C383,Sharon King,sharon.king@example.com,3624.78,@sharon_king_social,True,Successfully found social handle for user
+C383,Sharon King,sharon.king@example.com,3624.7799999999997,@sharon_king_social,True,Successfully found social handle for user
 C397,William Harris,william.harris@hotmail.com,1954.92,@william_harris_social,True,Successfully found social handle for user
 C401,Donald Lewis,donaldlewis@outlook.com,624.08,@donaldlewis_social,True,Successfully found social handle for user
 C551,Karen Allen,karen_allen@yahoo.com,696.27,@karen_allen_social,True,Successfully found social handle for user
 C566,Linda Sanchez,lindasanchez@company.com,527.51,@lindasanchez_social,True,Successfully found social handle for user
 C594,Joseph Thompson,joseph.thompson@yahoo.com,2336.78,@joseph_thompson_social,True,Successfully found social handle for user
-C602,Joshua Wright,joshua_wright@outlook.com,2109.99,@joshua_wright_social,True,Successfully found social handle for user
-C708,Carol Allen,notfound6@example.com,1621.64,,False,Profile not found (404)
+C602,Joshua Wright,joshua_wright@outlook.com,2109.9900000000002,@joshua_wright_social,True,Successfully found social handle for user
+C708,Carol Allen,notfound6@example.com,1621.6399999999999,,False,Profile not found (404)
 C807,Mary Moore,notfound2@example.com,2271.49,,False,Profile not found (404)
 C854,Patricia Robinson,patricia.robinson@outlook.com,3205.25,@patricia_robinson_social,True,Successfully found social handle for user
 C978,Joseph Young,joseph_young@example.com,3553.77,@joseph_young_social,True,Successfully found social handle for user
@@ -169,18 +169,18 @@ D468,Michelle Garcia,michelle.garcia@example.com,3163.05,@michelle_garcia_social
 D501,Ruth Flores,notfound3@example.com,3485.63,,False,Profile not found (404)
 D535,Susan White,susanwhite@hotmail.com,3340.21,@susanwhite_social,True,Successfully found social handle for user
 D622,James Wilson,james.wilson@hotmail.com,1405.78,@james_wilson_social,True,Successfully found social handle for user
-D696,Mary Hernandez,maryhernandez@gmail.com,1141.89,@maryhernandez_social,True,Successfully found social handle for user
+D696,Mary Hernandez,maryhernandez@gmail.com,1141.8899999999999,@maryhernandez_social,True,Successfully found social handle for user
 D697,Anthony Taylor,anthony_taylor@gmail.com,2538.83,@anthony_taylor_social,True,Successfully found social handle for user
-D722,Helen Gonzalez,helengonzalez@example.com,2273.03,@helengonzalez_social,True,Successfully found social handle for user
+D722,Helen Gonzalez,helengonzalez@example.com,2273.0299999999997,@helengonzalez_social,True,Successfully found social handle for user
 D908,Donald Jackson,,186.9,,False,No email provided
 D939,Joshua Lewis,joshualewis@yahoo.com,4252.49,@joshualewis_social,True,Successfully found social handle for user
 E104,Paul Lee,paullee@gmail.com,1202.48,@paullee_social,True,Successfully found social handle for user
 E116,James Sanchez,james_sanchez@example.com,1754.5,@james_sanchez_social,True,Successfully found social handle for user
-E162,Ruth Brown,ruth.brown@hotmail.com,1453.53,@ruth_brown_social,True,Successfully found social handle for user
+E162,Ruth Brown,ruth.brown@hotmail.com,1453.5300000000002,@ruth_brown_social,True,Successfully found social handle for user
 E181,Charles Hernandez,charles_hernandez@yahoo.com,190.33,@charles_hernandez_social,True,Successfully found social handle for user
 E241,Robert Robinson,robert_robinson@hotmail.com,3668.55,@robert_robinson_social,True,Successfully found social handle for user
 E327,Nancy Hill,nancy.hill@outlook.com,4755.03,@nancy_hill_social,True,Successfully found social handle for user
-E332,Carol Young,carol_young@example.com,2404.65,@carol_young_social,True,Successfully found social handle for user
+E332,Carol Young,carol_young@example.com,2404.6499999999996,@carol_young_social,True,Successfully found social handle for user
 E336,Patricia Torres,patricia_torres@example.com,1509.14,@patricia_torres_social,True,Successfully found social handle for user
 E338,Jessica King,jessica_king@hotmail.com,1159.79,@jessica_king_social,True,Successfully found social handle for user
 E342,Anthony White,notfound1@example.com,3160.34,,False,Profile not found (404)
@@ -192,9 +192,9 @@ E604,Paul Williams,paulwilliams@example.com,340.2,@paulwilliams_social,True,Succ
 E627,Charles Thomas,charlesthomas@gmail.com,7898.23,@charlesthomas_social,True,Successfully found social handle for user
 E794,Lisa Rodriguez,lisa_rodriguez@outlook.com,1422.75,@lisa_rodriguez_social,True,Successfully found social handle for user
 E826,Michael Moore,michaelmoore@outlook.com,2423.8,@michaelmoore_social,True,Successfully found social handle for user
-E827,Helen Nguyen,notfound4@example.com,2403.11,,False,Profile not found (404)
+E827,Helen Nguyen,notfound4@example.com,2403.1099999999997,,False,Profile not found (404)
 E833,Mark Miller,mark_miller@company.com,1764.8,@mark_miller_social,True,Successfully found social handle for user
-E856,Steven Jackson,steven_jackson@yahoo.com,1890.64,@steven_jackson_social,True,Successfully found social handle for user
+E856,Steven Jackson,steven_jackson@yahoo.com,1890.6399999999999,@steven_jackson_social,True,Successfully found social handle for user
 E881,Charles Martinez,charles.martinez@outlook.com,5177.03,@charles_martinez_social,True,Successfully found social handle for user
 E910,Jessica Lee,jessica.lee@company.com,3258.59,@jessica_lee_social,True,Successfully found social handle for user
 E925,Elizabeth Davis,elizabethdavis@example.com,450.84,@elizabethdavis_social,True,Successfully found social handle for user
